@@ -2,7 +2,7 @@ import React from "react";
  
 import "./collection-item.styles.scss"
 
-export const CollectItem = ({name, price, imageUrl }) => (
+export const CollectionItem = ({name, price, imageUrl }) => (
   <div className="collection-item">
     <div className="image" style={{ background: `url(${imageUrl})` }} />
     <div className="collection-footer">
@@ -12,4 +12,4 @@ export const CollectItem = ({name, price, imageUrl }) => (
   </div>
 );
 
-export default CollectItem;
+export default CollectionItem;
